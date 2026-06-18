@@ -7,6 +7,8 @@ Código Python que lê contatos cadastrados no Supabase e envia mensagens person
 1. Busca até 3 contatos da tabela `contatos` no Supabase
 2. Para cada contato, envia via WhatsApp: "Olá, {nome} tudo bem com você?"
 
+> Neste teste foi utilizado 1 número de WhatsApp conectado via Z-API (plano trial).
+
 ## Setup da tabela no Supabase
 
 Crie uma tabela chamada `contatos` com as colunas:
